@@ -647,7 +647,7 @@ textarea#message{
 #footer {
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #fff;
+  color: #aaa;
 }
 
 #footer a {
@@ -675,6 +675,7 @@ textarea#message{
 }
 .midnight-blue {
 	text-align:center;
+	
 
 }
 
@@ -692,18 +693,19 @@ textarea#message{
 
 
 /*--------footer code---------*/
-.footer-para{
+.img-style{    
+	display: inherit;
+    margin: auto;}
+.new-para{
 	padding-top: 20px; color: black;
+	text-align: center;
+	    margin-bottom: 40px;
 }
-.footer-heading{
+.new-heading{
 	font-weight: bold; color:black;
+	text-align: center;
 	
 }
-.facebook-1 i{
-	color: #eb4f78; margin-top: 92px;
-	margin-bottom: 10px;
-}
-.facebook-1 i:hover{
-	color: #a9596f;
-	cursor: pointer;
+.footer-span{
+	display: block;
 }
