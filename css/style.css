@@ -648,7 +648,6 @@ textarea#message{
   padding-top: 30px;
   padding-bottom: 30px;
   color: #fff;
-  background: #bb1f34;
 }
 
 #footer a {
@@ -688,3 +687,23 @@ textarea#message{
     display: none;
 }
 
+
+
+
+
+/*--------footer code---------*/
+.footer-para{
+	padding-top: 20px; color: black;
+}
+.footer-heading{
+	font-weight: bold; color:black;
+	
+}
+.facebook-1 i{
+	color: #eb4f78; margin-top: 92px;
+	margin-bottom: 10px;
+}
+.facebook-1 i:hover{
+	color: #a9596f;
+	cursor: pointer;
+}
