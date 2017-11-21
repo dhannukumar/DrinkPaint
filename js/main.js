@@ -133,7 +133,7 @@ var Gallery_image = "<div class='portfolio-item wordpress col-xs-12 col-sm-4 col
       
 $('#more_Gallery').click(function(){
 	$('#hider').append(Gallery_image);
-	$('#more_Gallery').hide("slow");
+	$('#more_Gallery').hide();
 	$('#Less_Gallery').toggle();
 });
 
@@ -141,10 +141,10 @@ $('#Less_Gallery').click(function(){
 	$('#Less_Gallery').hide();
 	location.reload();
 });
-
-
-
-
+//
+//$('.hide-more').click(function(){
+//	$('#more_Gallery').hide();
+//});
 
 $('.hide_1').click(function(){
     $('.navbar-nav').hide(1000);

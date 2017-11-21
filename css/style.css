@@ -332,8 +332,8 @@ hr {
 }
 
 .portfolio-item {
-  margin: 0;
-  padding:0;
+  left: auto!important;
+  right: auto!important ;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -686,8 +686,8 @@ textarea#message{
 }
 #Less_Gallery{
     display: none;
+	
 }
-
 
 
 
@@ -697,12 +697,14 @@ textarea#message{
 	display: inherit;
     margin: auto;}
 .new-para{
-	padding-top: 20px; color: black;
+	padding-top: 20px;
+	color: #888;
 	text-align: center;
-	    margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 .new-heading{
-	font-weight: bold; color:black;
+	font-weight: bold; 
+	color: #555;
 	text-align: center;
 	
 }
